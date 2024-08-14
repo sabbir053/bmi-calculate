@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main_div{
+    background-color: rgb(41, 38, 38);
+}
+
+.table_style{
+    width: 80%;
+    border-spacing: 0;
+}
+th, td{
+    border: 1px solid rgb(78, 78, 78);
+    padding: 15px;
+}
+
+.dropdown_item_bg{
+    background-color: rgb(41, 38, 38);
+}
+
+.btn_style{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.input_box_style{
+    border: none;
+    margin: 2px;
+    background-color: rgb(29, 29, 29);
+    height: 45px;
+    width: 250px;
+    color: rgb(192, 192, 192);
+}
+.input_box_style-2{
+    border: none;
+    margin: 2px;
+    background-color: rgb(29, 29, 29);
+    height: 45px;
+    width: 509px;
+    color: rgb(192, 192, 192);
+}
+
+@media (max-width:720px){
+    
+    .input_box_style{
+        border: none;
+        margin: 2px;
+        background-color: rgb(29, 29, 29);
+        height: 45px;
+        width: 100%;
+        color: rgb(192, 192, 192);
+    }
+    .input_box_style-2{
+        border: none;
+        margin: 2px;
+        background-color: rgb(29, 29, 29);
+        height: 45px;
+        width: 100%;
+        color: rgb(192, 192, 192);
+    }
+}
+
+.f_result{
+    color: rgb(217, 228, 217);
+}
+
+/* clickable img style here */
+.img-list{
+    height: 100px;
+    width: 100px;
+}
+#main-img{
+    height: 400px;
+    width: 450px;
+}
